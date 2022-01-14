@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/Emmzy-1/Flyo)
-- [Live Site URL](https://manuels-flyo.netlify.app)
+- [Live Site URL](https://manuels-fylo.netlify.app)
 
 #### My process
 
