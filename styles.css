@@ -1,0 +1,122 @@
+/* basic format */
+body {
+  font-family: 'Open Sans';font-size: 22px;
+}
+
+p{
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+h1,input{
+  font-family: 'Raleway';
+  font-size: 2.3rem;
+  font-weight: bolder;
+  color: hsl(243, 87%, 12%);
+}
+a {
+text-decoration: none;
+}
+nav,section,footer{
+  padding: 60px;
+}
+section{
+  display: flex;
+  align-items: center;
+}
+
+/* nav-section */
+
+nav {
+  display: flex;justify-content: space-between;
+  align-items: center;
+}
+.nav-links{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.nav-links a {
+  color: #45444c;
+  font-weight: 100;
+  font-size: 1rem;
+
+}
+
+/* Hero-section */
+.hero-section{
+  padding-top: 20px;
+}
+.hero-section-form{
+  width: 90%;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+.hero-section-form-input{
+  font-size: 1rem;
+  width: 55%;
+  height:2.85rem;
+  padding-left: 20px;
+  color: rgba(74, 74, 125, 0.685);
+  border: 1px solid hsl(224, 93%, 58%);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.Hero-button{
+  font-size: 1rem;
+  background-color: hsl(224, 93%, 58%);
+  padding: 10px;
+  width: 35%;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  transition-duration: .2s;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+.Hero-button:hover{
+  cursor: pointer;
+  background-color: hsla(224, 93%, 58%, 0.801);
+}
+.img-box img{
+  width: 45vw;
+  height: 90vh;
+}
+.img{
+  display: flex;
+  overflow: hidden;
+}
+.testimonial-container{
+  background-color: #f8f8fe;
+}
+.testimonial-button{
+  color:hsl(170, 45%, 43%);
+  padding-bottom: 5px;
+  border-bottom: 1px solid hsl(170, 45%, 43%) ;
+}
+.testimonial-button:hover{
+  color:hsla(170, 45%, 43%, 0.548);
+  border-color: hsla(170, 45%, 43%, 0.548);
+}
+#icon-arrow{
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+
+/* Footer */
+#heart{
+  color: red;
+}
+#music{
+  color: gold;
+}
