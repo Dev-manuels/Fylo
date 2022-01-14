@@ -11,7 +11,7 @@ p{
 h1,input{
   font-family: 'Raleway';
   font-size: 2.3rem;
-  font-weight: bolder;
+  font-weight: 700;
   color: hsl(243, 87%, 12%);
 }
 a {
@@ -106,13 +106,44 @@ nav {
   color:hsla(170, 45%, 43%, 0.548);
   border-color: hsla(170, 45%, 43%, 0.548);
 }
+.text{
+  margin-bottom: 20px;
+}
 #icon-arrow{
   font-size: 16px;
   margin-left: 10px;
 }
 .testimonial{
+  background-color: white;
   height: 20%;
-  padding: 10px;
+  padding: 25px;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35%;
+}
+.client-img{
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.profile-about p{
+  margin: 0;
+}
+.name{
+  font-size: 1rem;
+  font-weight: 900;
+  font-family: 'Raleway';
+}
+.position{
+  font-size: .8rem;
+  font-weight: 100;
+  font-family: 'Raleway';
 }
 
 
