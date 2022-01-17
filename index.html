@@ -53,8 +53,8 @@
           <a class="testimonial-button" href="#">See how Fylo works<i id="icon-arrow" class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
         </div>
         <div class="testimonial">
-          <i class="fas fa-quote-left quote-icon"></i>
-          <p>Fylo has improved our team productivity by an order of magnitude. Since 
+          <i id="quote-icon" class="fas fa-quote-left quote-icon"></i>
+          <p class="quote-text">Fylo has improved our team productivity by an order of magnitude. Since 
             making the switch our team has become a well-oiled collaboration machine.
           </p>
           <div class="profile">
@@ -71,42 +71,47 @@
 
 
   <section class="sign-up">
-    <div class="text-box">
+    <div class="sign-up-text">
       <h2>Get early access today</h2>
-    <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+      <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
       If you have any questions, our support team would be happy to help you.</p>
     </div>
     <div class="input">
-      <input type="email" placeholder="Email@example.com">
-      <button>Get Started For Free</button>
-
+      <form class="sign-up-form" >
+        <input type="email" class="sign-up-form-input" placeholder="Email@Example.com" >
+        <input type="submit" class="sign-up-form-button" value="Get Started For Free"></input>
+      </form>
     </div>
   </section>
 
 
   <footer>
-    <div class="logo-box">
-      <img src="images/logo.svg" alt="Logo image"><br>
-      <p><i class="fas fa-phone-alt"></i>Phone: +1-543-123-4567</p>
-      <p><i class="fas fa-at"></i>example@fylo.com</p>
-
+    <div class="footer-content">
+      <div class="logo-box">
+        <img src="images/logo.svg" alt="Logo image"><br>
+        <p><i class="fas fa-phone-alt"></i>Phone: +1-543-123-4567</p>
+        <p><i class="fas fa-at"></i>example@fylo.com</p>
+  
+      </div>
+  
+      <div class="footer-link1">
+        <a href="#" class="footer-link">About Us</a>
+        <a href="#" class="footer-link">Jobs</a>
+        <a href="#" class="footer-link">Press</a>
+        <a href="#" class="footer-link">Blog</a>
+      </div>
+      <div class="footer-link2">
+        <a href="#" class="footer-link">Contact Us</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Privacy</a>
+      </div>
     </div>
-
-    <div class="footer-link1">
-      <a href="#" class="footer-link">About Us</a>
-      <a href="#" class="footer-link">Jobs</a>
-      <a href="#" class="footer-link">Press</a>
-      <a href="#" class="footer-link">Blog</a>
+    <div class="attribute">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>,
+        Coded with <i id="heart" class="fas fa-heart"></i> & <i id="music" class="fas fa-music"></i> by <a href="https://twitter.com/_emmzy_">Emmanuel</a>.
+      </p>
     </div>
-    <div class="footer-link2">
-      <a href="#" class="footer-link">Contact Us</a>
-      <a href="#" class="footer-link">Terms</a>
-      <a href="#" class="footer-link">Privacy</a>
-    </div>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>,
-      Coded with <i id="heart" class="fas fa-heart"></i> & <i id="music" class="fas fa-music"></i> by <a href="https://twitter.com/_emmzy_">Emmanuel</a>.
-    </p>
   </footer>
 
 

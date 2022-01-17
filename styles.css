@@ -1,18 +1,24 @@
 /* basic format */
 body {
-  font-family: 'Open Sans';font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  font-size: 22px;
 }
 
 p{
-  font-weight: 100;
+  margin: 0;
   font-size: 1.2rem;
 }
 
-h1,input{
+h1,h2,input{
   font-family: 'Raleway';
   font-size: 2.3rem;
-  font-weight: 700;
+  font-weight: bold;
   color: hsl(243, 87%, 12%);
+}
+h2{
+  color: white;
 }
 a {
 text-decoration: none;
@@ -38,7 +44,6 @@ nav {
 }
 .nav-links a {
   color: #45444c;
-  font-weight: 100;
   font-size: 1rem;
 
 }
@@ -53,13 +58,14 @@ nav {
   align-content: center;
   justify-content: space-between;
   gap: 5%;
+  margin-top: 20px;
 }
 .hero-section-form-input{
-  font-size: 1rem;
+  font-size: .8rem;
   width: 55%;
   height:2.85rem;
   padding-left: 20px;
-  color: rgba(74, 74, 125, 0.685);
+  color: rgba(104, 104, 139, 0.685);
   border: 1px solid hsl(224, 93%, 58%);
   border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -94,6 +100,8 @@ nav {
   display: flex;
   overflow: hidden;
 }
+
+/* Testimonial section */
 .testimonial-container{
   background-color: #f8f8fe;
 }
@@ -101,6 +109,7 @@ nav {
   color:hsl(170, 45%, 43%);
   padding-bottom: 5px;
   border-bottom: 1px solid hsl(170, 45%, 43%) ;
+  font-size: 1.1rem;
 }
 .testimonial-button:hover{
   color:hsla(170, 45%, 43%, 0.548);
@@ -109,20 +118,37 @@ nav {
 .text{
   margin-bottom: 20px;
 }
+.text p{
+  margin-bottom: 20px;
+}
 #icon-arrow{
   font-size: 16px;
   margin-left: 10px;
 }
 .testimonial{
   background-color: white;
-  height: 20%;
-  padding: 25px;
+  width: 53%;
+  padding: 20px 25px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .profile{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 35%;
+  width: 60%;
+}
+#quote-icon{
+  font-size: .9rem;
+}
+.quote-text{
+  font-size: .95rem;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .client-img{
   height: 40px;
@@ -146,9 +172,59 @@ nav {
   font-family: 'Raleway';
 }
 
+/* Sign-up section */
+.sign-up{
+  background-color: hsl(238, 22%, 44%);
+  color: white ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-up-text{
+  width: 45%;
+}
+.input{
+  width: 35%;
+}
+.sign-up-form{
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-form-input{
+  font-size: .8rem;
+  width: 90%;
+  height:2.85rem;
+  padding-left: 5%;
+  color: rgba(74, 74, 125, 0.685);
+  border: none;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.sign-up-form-button{
+  margin-top: 10px;
+  width: 45%;
+  font-size: 1rem;
+  background-color: hsl(224, 93%, 58%);
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
 
 
 /* Footer */
+footer{
+  height: 40vh;
+  background-color: hsl(243, 87%, 12%);
+}
 #heart{
   color: red;
 }
