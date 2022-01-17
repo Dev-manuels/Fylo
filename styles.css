@@ -22,6 +22,8 @@ h2{
 }
 a {
 text-decoration: none;
+color: white;
+font-family: 'Raleway';
 }
 nav,section,footer{
   padding: 60px;
@@ -222,8 +224,8 @@ nav {
 
 /* Footer */
 footer{
-  height: 40vh;
   background-color: hsl(243, 87%, 12%);
+  color: #fff;
 }
 #heart{
   color: red;
