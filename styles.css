@@ -282,3 +282,55 @@ footer{
 .instagram-icon:hover{
   color: #8a3ab9;
 }
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 800px){
+  h1,p{
+    text-align: center;
+  }
+  section{
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  .nav-logo,.nav-links{
+    flex: 0 1 auto;
+    width: fit-content ;
+  }
+  .logo{
+    width: 5rem;
+  }
+  .nav-links{
+    justify-content: space-between;
+  }
+  .img-box{
+    order: -1;
+    width: 100%;
+  }
+  .img-box img{
+    width: 100%;
+  }
+  .hero-section-form{
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-section-form input{
+    width: -webkit-fill-available;
+    margin-top: 20px;
+  }
+
+  .sign-up-text,.input{
+    width: -webkit-fill-available;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-social-icons{
+    text-align: center;
+    margin-right: 0;
+  }
+  
+}
