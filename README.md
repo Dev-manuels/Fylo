@@ -57,4 +57,4 @@ I used this challenge to brush up my long unpracticed html and css and also to l
 
 ## Acknowledgments
 
-Big thanks to my uncle for the internet supply, youtube and stackoverflow LOL..........
+Big thanks to my uncle, friends and all the authors of the online resourses used.
