@@ -37,7 +37,8 @@ section{
 /* nav-section */
 
 nav {
-  display: flex;justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .nav-links{
@@ -146,8 +147,7 @@ nav {
 .profile{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 60%;
+  width: 100%;
 }
 #quote-icon{
   font-size: .9rem;
@@ -165,9 +165,11 @@ nav {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.profile-about p{
-  margin: 0;
+.profile-about{
+  margin-left: 20px;
+  text-align: left;
 }
+
 .name{
   font-size: 1rem;
   font-weight: 900;
@@ -321,6 +323,7 @@ footer{
     width:max-content;
   }
   .nav-links a{
+    font-size:.9rem;
     display: inline;
     margin-left: 20px;
   }
@@ -347,6 +350,22 @@ footer{
     order: -1;
     width: 100%;
   }
+  .testimonial{
+    width: calc(100% - 50px);
+  }
+  .text{
+    text-align: center;
+  }
+  .quote-text{
+    font-size: .8rem;
+  }
+  .profile-about{
+    margin-left: 20px;
+    text-align: left;
+  }
+  .name,.position{
+    text-align: left;
+  }
 
   .sign-up-text,.input{
     width: -webkit-fill-available;
@@ -354,9 +373,13 @@ footer{
 
   .footer-content{
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
+    text-align: left;
+  }
+  .logo-box p{
+    text-align: left;
+  }
+  .footer-links a{
+    width: fit-content;
   }
   .footer-social-icons{
     text-align: center;
