@@ -240,7 +240,7 @@ footer{
   /* align-content: /; */
   margin-bottom: 30px;
 }
-.logo-box p{
+.logo-box p,.logo-box a{
   padding-top: 20px ;
   font-size: 1rem;
 }
