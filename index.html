@@ -15,110 +15,114 @@
 
 </head>
 <body>
-  <nav>
-    <div class="nav-logo"><a href="https://twitter.com/Manuels_designs"><img class="logo" src="images/logo-black.svg" alt="Logo image"></a></div>
-    <div class="nav-links">
-      <a href="https://twitter.com/Manuels_designs">Features</a>
-      <a href="https://twitter.com/Manuels_designs">Team</a>
-      <a href="https://twitter.com/Manuels_designs">Sign In</a>
+  <header role="banner">
+    <nav role="navigation">
+      <div class="nav-logo"><a href="https://twitter.com/Manuels_designs"><img class="logo" src="images/logo-black.svg" alt="Logo image"></a></div>
+      <div class="nav-links">
+        <a href="https://twitter.com/Manuels_designs" aria-label="Features">Features</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Team">Team</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Sign In">Sign In</a>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main">
+    <section class="hero-section">
+      <div class="hero-content">
+       <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p>Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+          <form class="hero-section-form" >
+            <input type="email" class="hero-section-form-input" placeholder="Enter your email..." >
+            <input type="submit" class="Hero-button" value="Get started"></input>
+          </form>
+      </div>
+    <div class="img-box"><img src="images/illustration-1.svg" alt="Svg Image Illustration"></div>
+    </section>
+  
+    <div class="img" role="img">
+      <img role="img" class="desktop" src="images/bg-curve-desktop.svg" alt="Svg-Image">
+      <img role="img" class="mobile" src="images/bg-curve-mobile.svg" alt="Svg-Image">
     </div>
-  </nav>
-
-  <section class="hero-section">
-    <div class="hero-content">
-     <h1>All your files in one secure location, accessible anywhere.</h1>
-      <p>Fylo stores your most important files in one secure location. 
-        Access them wherever you need, share and collaborate with friends, 
-        family, and co-workers.</p>
-        <form class="hero-section-form" >
-          <input type="email" class="hero-section-form-input" placeholder="Enter your email..." >
-          <input type="submit" class="Hero-button" value="Get started"></input>
-        </form>
-    </div>
-  <div class="img-box"><img src="images/illustration-1.svg"></div>
-  </section>
-
-  <div class="img">
-    <img class="desktop" src="images/bg-curve-desktop.svg">
-    <img class="mobile" src="images/bg-curve-mobile.svg">
-  </div>
-
-
-  <section class="testimonial-container">
-    <div class="text-box">
-        <div class="text">
-          <h1>Stay productive, wherever you are</h1>
-          <p>Never let location be an issue when accessing your files. Fylo has you 
-            covered for all of your file storage needs.</p>
-          <p>Securely share files and folders with friends, family and colleagues for 
-            live collaboration. No email attachments required!</p>
-          <a class="testimonial-button" href="https://twitter.com/Manuels_designs">See how Fylo works<i id="icon-arrow" class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
-        </div>
-        <div class="testimonial">
-          <i id="quote-icon" class="fas fa-quote-left quote-icon"></i>
-          <p class="quote-text">Fylo has improved our team productivity by an order of magnitude. Since 
-            making the switch our team has become a well-oiled collaboration machine.
-          </p>
-          <div class="profile">
-            <img class="client-img" src="images/avatar-testimonial.jpg">
-            <div class="profile-about">
-              <p class="name">Kyle Burton</p>
-              <p class="position">Founder & CEO, Huddle</p>
+  
+  
+    <section class="testimonial-container">
+      <div class="text-box">
+          <div class="text">
+            <h1>Stay productive, wherever you are</h1>
+            <p>Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.</p>
+            <p>Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!</p>
+            <a class="testimonial-button" href="https://twitter.com/Manuels_designs" aria-label="See how Fylo works">See how Fylo works<i id="icon-arrow" class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+          </div>
+          <div class="testimonial">
+            <i id="quote-icon" class="fas fa-quote-left quote-icon"></i>
+            <p class="quote-text">Fylo has improved our team productivity by an order of magnitude. Since 
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="profile">
+              <img class="client-img" src="images/avatar-testimonial.jpg" alt="Client Image">
+              <div class="profile-about">
+                <p class="name">Kyle Burton</p>
+                <p class="position">Founder & CEO, Huddle</p>
+              </div>
             </div>
           </div>
-        </div>
-    </div>
-    <div class="img-box"><img src="images/illustration-2.svg"></div>
-  </section>
+      </div>
+      <div class="img-box"><img src="images/illustration-2.svg" alt="Svg Image Illustration"></div>
+    </section>
+  
+  
+    <section class="sign-up">
+      <div class="sign-up-text">
+        <h2>Get early access today</h2>
+        <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="input">
+        <form class="sign-up-form" >
+          <input type="email" class="sign-up-form-input" placeholder="Email@Example.com" >
+          <input type="submit" class="sign-up-form-button" value="Get Started For Free"></input>
+        </form>
+      </div>
+    </section>
+  </main>
 
 
-  <section class="sign-up">
-    <div class="sign-up-text">
-      <h2>Get early access today</h2>
-      <p>It only takes a minute to sign up and our free starter tier is extremely generous. 
-      If you have any questions, our support team would be happy to help you.</p>
-    </div>
-    <div class="input">
-      <form class="sign-up-form" >
-        <input type="email" class="sign-up-form-input" placeholder="Email@Example.com" >
-        <input type="submit" class="sign-up-form-button" value="Get Started For Free"></input>
-      </form>
-    </div>
-  </section>
-
-
-  <footer>
+  <footer role="contentinfo">
     <div class="footer-content">
       <div class="logo-box">
         <img src="images/logo-white.svg" alt="Logo image"><br>
-        <a href="https://api.whatsapp.com/send?phone=23409025543040&text=Hello%20Manuel%27s%20designs%20,%20please%20get%20back%20to%20me%20as%20soon%20as%20possible" ><i class="fas fa-phone-alt footer-icon"></i>Phone: +2349025543040</a>
+        <a href="https://api.whatsapp.com/send?phone=23409025543040&text=Hello%20Manuel%27s%20designs%20,%20please%20get%20back%20to%20me%20as%20soon%20as%20possible" aria-label="Whatsapp Contact"><i class="fas fa-phone-alt footer-icon"></i>Phone: +2349025543040</a>
         <p><i class="fas fa-envelope footer-icon"></i>Emmanuel.umeh.work@gmail.com</p>
   
       </div>
   
       <div class="footer-links">
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">About Us</a>
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">Jobs</a>
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">Press</a>
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">Blog</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="About Us" class="footer-link">About Us</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Jobs" class="footer-link">Jobs</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Press" class="footer-link">Press</a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Blog" class="footer-link">Blog</a>
       </div>
 
       <div class="footer-links">
-        <a href="https://api.whatsapp.com/send?phone=23409025543040&text=Hello%20Manuel's%20designs%20,%20please%20get%20back%20to%20me%20as%20soon%20as%20possible" class="footer-link">Contact Us</a>
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">Terms</a>
-        <a href="https://twitter.com/Manuels_designs" class="footer-link">Privacy</a>
+        <a href="https://api.whatsapp.com/send?phone=23409025543040&text=Hello%20Manuel's%20designs%20,%20please%20get%20back%20to%20me%20as%20soon%20as%20possible" aria-label="Contact Us" class="footer-link">Contact Us</a>
+        <a href="#" aria-label="Terms" class="footer-link">Terms</a>
+        <a href="#" aria-label="Privacy" class="footer-link">Privacy</a>
       </div>
 
       <div class="footer-social-icons">
-        <a href="https://www.facebook.com/manuels.designs/"><i class="fab fa-facebook facebook-icon"></i></a>
-        <a href="https://twitter.com/Manuels_designs"><i class="fab fa-twitter twitter-icon"></i></a>
-        <a href="https://www.instagram.com/manuels_designs"><i class="fab fa-instagram instagram-icon"></i></a>
+        <a href="https://www.facebook.com/manuels.designs/" aria-label="Facebook Link"><i class="fab fa-facebook facebook-icon"></i></a>
+        <a href="https://twitter.com/Manuels_designs" aria-label="Twitter Link"><i class="fab fa-twitter twitter-icon"></i></a>
+        <a href="https://www.instagram.com/manuels_designs" aria-label="Instagram Link"><i class="fab fa-instagram instagram-icon"></i></a>
       </div>
     </div>
     <div class="attribute">
       <p class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5" class="name">Frontend Mentor</a>,
-        Coded with <i id="heart" class="fas fa-heart"></i> & <i id="music" class="fas fa-music"></i> by <a href="https://twitter.com/Manuels_designs" class="name">Manuel's Designs</a>.
+        Challenge by <a href="https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5" aria-label="frontendmentor Link" class="name">Frontend Mentor</a>,
+        Coded with <i id="heart" class="fas fa-heart"></i> & <i id="music" class="fas fa-music"></i> by <a href="https://twitter.com/Manuels_designs" aria-label="Twitter Link" class="name">Manuel's Designs</a>.
       </p>
     </div>
   </footer>
